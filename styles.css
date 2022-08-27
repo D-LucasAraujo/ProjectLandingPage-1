@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.HeaderBody {
+    
+    background-color: #1F2937;
+    margin: -8px;
+}
+
+.HeaderBodyNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderBodySection1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 175px;
+}
+
+.TextHeaderLogo {
+    color: #f9faf8;
+    font-size: 24px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.HeaderBodyNavBarLink {
+    /* font-family: 'Roboto', sans-serif; */
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.HeaderBodySection1Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BodySectionSecondaryText {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.BodySectionButton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+    padding: 10px;
+}
+
+.BodySectionButton:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+    padding: 10px;
+}
+
+.HeaderBody2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.HeroText2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.divcards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.cardinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: transparent;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.textCard {
+    text-align: center;
+}
+
+.HeaderBody3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    margin: -8px;
+}
+
+.QuoteZone {
+    padding: 100px 50px;
+}
+
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quoteAutor {
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+.HeaderBody4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px;
+}
+
+.ModalSection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    height: 20px;
+    width: 800px;
+    border-radius: 10px;
+    padding: 60px;
+    align-items: center;
+}
+
+.modalContent {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.modalTittle {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.modalText {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.modalButton {
+    background-color: transparent;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.modalButton:hover {
+    width: 150px;
+}
+
+.pageFooter {
+    background-color: #1F2937;
+    margin: -8px;
+}
+
+.FooterText {
+    padding: 30px;
+    font-size: 15px;
+    color: #f9faf8;
+    text-align: center;
+}
